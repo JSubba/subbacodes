@@ -8,11 +8,11 @@ const Home = () => {
       name="home"
       className="bg-gray-900 bg-right sm:bg-center bg-cover bg-no-repeat text-gray-300 w-full h-screen"
     >
-      <div className="max-w-[55rem] mx-auto px-10 -m-8 flex flex-col justify-center h-full">
-        <h1 className="text-5xl text-cyan-500 sm:text-7xl font-bold">
+      <div className="max-w-[55rem] mx-auto px-8 -m-8 flex flex-col justify-center h-full">
+        <h1 className="text-5xl sm:text-6xl text-cyan-500 font-bold">
           J.Subba
         </h1>
-        <h2 className="text-6xl sm:text-8xl font-bold py-4">
+        <h2 className="text-6xl sm:text-7xl font-bold py-4">
           I'm a Web Developer
         </h2>
         <p className="py-4 text-1xl sm:text-2xl max-w-md">

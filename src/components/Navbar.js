@@ -98,7 +98,7 @@ const Navbar = () => {
 
       {/* social icons  */}
       <ul className="hidden lg:flex fixed flex-col top-[32%] left-0">
-        <li className="w-[180px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-sky-700">
+        <li className="w-[160px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-sky-700">
           <a
             href="https://www.linkedin.com/in/jsubba/"
             className="flex justify-between items-center w-full text-gray-300"
@@ -107,7 +107,7 @@ const Navbar = () => {
             <FaLinkedinIn size={30} />
           </a>
         </li>
-        <li className="w-[180px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+        <li className="w-[160px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
           <a
             href="https://github.com/"
             className="flex justify-between items-center w-full text-gray-300"
@@ -116,7 +116,7 @@ const Navbar = () => {
             <FaGithub size={30} />
           </a>
         </li>
-        <li className="w-[180px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+        <li className="w-[160px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
           <a
             href="https://www.facebook.com/profile.php?id=100081027348654"
             className="flex justify-between items-center w-full text-gray-300"
@@ -125,7 +125,7 @@ const Navbar = () => {
             <FaFacebook size={30} />
           </a>
         </li>
-        <li className="w-[180px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
+        <li className="w-[160px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
           <Link
             to="contact"
             smooth={true}
@@ -136,7 +136,7 @@ const Navbar = () => {
             <HiOutlineMail size={30} />
           </Link>
         </li>
-        <li className="w-[180px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+        <li className="w-[160px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
           <a
             href="/"
             className="flex justify-between items-center w-full text-gray-300"
