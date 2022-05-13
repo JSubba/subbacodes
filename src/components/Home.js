@@ -22,7 +22,7 @@ const Home = () => {
         </p>
         <div>
           <Link to="projects" smooth={true} duration={500}>
-            <button className="px-10 py-6 my-3 text-1xl sm:text-2xl flex items-center shadow-md shadow-cyan-500 hover:text-cyan-500 hover:scale-105 ease-in duration-500 font-semibold">
+            <button className="px-10 py-5 my-3 text-1xl sm:text-2xl flex items-center shadow-md shadow-cyan-500 hover:text-cyan-500 hover:scale-105 ease-in duration-500 font-semibold">
               View Projects
               <span>
                 <HiArrowNarrowRight className="ml-3 " />

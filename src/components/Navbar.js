@@ -64,22 +64,22 @@ const Navbar = () => {
             : "hidden"
         }
       >
-        <li className="py-6 text-4xl hover:underline">
+        <li className="py-7 text-4xl hover:underline">
           <Link to="home" onClick={handleClick} smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:underline">
+        <li className="py-7 text-4xl hover:underline">
           <Link to="about" onClick={handleClick} smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:underline">
+        <li className="py-7 text-4xl hover:underline">
           <Link to="skills" onClick={handleClick} smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:underline">
+        <li className="py-7 text-4xl hover:underline">
           <Link
             to="projects"
             onClick={handleClick}
@@ -89,7 +89,7 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:underline">
+        <li className="py-7 text-4xl hover:underline">
           <Link to="contact" onClick={handleClick} smooth={true} duration={500}>
             Contact
           </Link>
