@@ -51,7 +51,7 @@ const Navbar = () => {
       <div
         className="md:hidden z-10 text-3xl"
         onClick={handleClick}
-        style={{ width: "2.5rem", fontSize: "1.5rem" }}
+        style={{ width: "2.5rem", fontSize: "2rem" }}
       >
         {nav ? <FaTimes /> : <FaBars />}
       </div>

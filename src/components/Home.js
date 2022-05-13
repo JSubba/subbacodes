@@ -12,7 +12,7 @@ const Home = () => {
         <h1 className="text-5xl text-cyan-500 sm:text-7xl font-bold">
           J.Subba
         </h1>
-        <h2 className="text-6xl sm:text-10xl font-bold py-4">
+        <h2 className="text-6xl sm:text-8xl font-bold py-4">
           I'm a Web Developer
         </h2>
         <p className="py-4 text-1xl sm:text-2xl max-w-md">
@@ -22,7 +22,7 @@ const Home = () => {
         </p>
         <div>
           <Link to="projects" smooth={true} duration={500}>
-            <button className="px-10 py-6 my-2 text-1xl sm:text-2xl flex items-center shadow-md shadow-cyan-500 hover:text-cyan-500 hover:scale-105 ease-in duration-500 font-semibold">
+            <button className="px-10 py-6 my-3 text-1xl sm:text-2xl flex items-center shadow-md shadow-cyan-500 hover:text-cyan-500 hover:scale-105 ease-in duration-500 font-semibold">
               View Projects
               <span>
                 <HiArrowNarrowRight className="ml-3 " />
