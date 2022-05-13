@@ -97,7 +97,7 @@ const Navbar = () => {
       </ul>
 
       {/* social icons  */}
-      <ul className="hidden lg:flex fixed flex-col top-[32%] left-0">
+      <ul className="hidden lg:flex fixed flex-col top-[33%] left-0">
         <li className="w-[160px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-sky-700">
           <a
             href="https://www.linkedin.com/in/jsubba/"
