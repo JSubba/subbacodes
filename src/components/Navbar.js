@@ -18,31 +18,31 @@ const Navbar = () => {
   return (
     <nav
       name="navbar"
-      className="bg-gray-900 w-full h-20 flex justify-between items-center px-4 text-gray-300"
+      className="bg-gray-900 w-full h-24 flex justify-between items-center px-4 text-gray-300"
     >
       <img src={Logo} alt="logo" style={{ width: "7rem" }} />
       <ul className="hidden md:flex">
-        <li className="shadow shadow-[#040c16] mr-1">
+        <li className="shadow shadow-[#040c16] mr-1 text-2xl">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="shadow shadow-[#040c16] mr-1">
+        <li className="shadow shadow-[#040c16] mr-1 text-2xl">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="shadow shadow-[#040c16] mr-1">
+        <li className="shadow shadow-[#040c16] mr-1 text-2xl">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="shadow shadow-[#040c16] mr-1">
+        <li className="shadow shadow-[#040c16] mr-1 text-2xl">
           <Link to="projects" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li className="shadow shadow-[#040c16]">
+        <li className="shadow shadow-[#040c16] text-2xl">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -98,7 +98,7 @@ const Navbar = () => {
 
       {/* social icons  */}
       <ul className="hidden lg:flex fixed flex-col top-[25%] left-0">
-        <li className="w-[200px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-sky-700">
+        <li className="w-[180px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-sky-700">
           <a
             href="https://www.linkedin.com/in/jsubba/"
             className="flex justify-between items-center w-full text-gray-300"
@@ -107,7 +107,7 @@ const Navbar = () => {
             <FaLinkedinIn size={30} />
           </a>
         </li>
-        <li className="w-[200px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+        <li className="w-[180px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
           <a
             href="https://github.com/"
             className="flex justify-between items-center w-full text-gray-300"
@@ -116,7 +116,7 @@ const Navbar = () => {
             <FaGithub size={30} />
           </a>
         </li>
-        <li className="w-[200px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+        <li className="w-[180px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
           <a
             href="https://www.facebook.com/profile.php?id=100081027348654"
             className="flex justify-between items-center w-full text-gray-300"
@@ -125,7 +125,7 @@ const Navbar = () => {
             <FaFacebook size={30} />
           </a>
         </li>
-        <li className="w-[200px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
+        <li className="w-[180px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
           <Link
             to="contact"
             smooth={true}
@@ -136,7 +136,7 @@ const Navbar = () => {
             <HiOutlineMail size={30} />
           </Link>
         </li>
-        <li className="w-[200px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+        <li className="w-[180px] h-[80px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
           <a
             href="/"
             className="flex justify-between items-center w-full text-gray-300"
