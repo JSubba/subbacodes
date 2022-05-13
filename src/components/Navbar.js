@@ -22,27 +22,27 @@ const Navbar = () => {
     >
       <img src={Logo} alt="logo" style={{ width: "7rem" }} />
       <ul className="hidden md:flex">
-        <li className="shadow shadow-[#040c16] mr-1 text-2xl">
+        <li className="shadow shadow-[#040c16] mr-1 text-xl">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="shadow shadow-[#040c16] mr-1 text-2xl">
+        <li className="shadow shadow-[#040c16] mr-1 text-xl">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="shadow shadow-[#040c16] mr-1 text-2xl">
+        <li className="shadow shadow-[#040c16] mr-1 text-xl">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="shadow shadow-[#040c16] mr-1 text-2xl">
+        <li className="shadow shadow-[#040c16] mr-1 text-xl">
           <Link to="projects" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li className="shadow shadow-[#040c16] text-2xl">
+        <li className="shadow shadow-[#040c16] text-xl">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
